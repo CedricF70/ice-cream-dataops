@@ -6,7 +6,7 @@ workflowDefinition:
     type: transformation
     parameters:
       transformation:
-        externalId: create_asset_hierarchy.Transformation
+        externalId: create_asset_hierarchy
         concurrencyPolicy: fail
     name: 'Task One'
     retries: 3
@@ -17,7 +17,7 @@ workflowDefinition:
     type: transformation
     parameters:
       transformation:
-        externalId: contextualize_ts_assets.Transformation
+        externalId: contextualize_ts_assets
         concurrencyPolicy: fail
     name: 'Task Two'
     retries: 3
